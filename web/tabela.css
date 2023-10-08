@@ -1,0 +1,24 @@
+
+table{
+    width:70%;
+    background-color: white;
+    border: solid #c0c0c0 1px;
+    font-family: calibri;
+    font-size: 15px
+}
+
+th, td {
+    border: solid #ededed 1px;
+    padding: 5px
+}
+
+* {
+    margin: 0 auto
+}
+
+th{
+    background-color: black;
+    color: white
+}
+
+

@@ -1,0 +1,85 @@
+header{
+    background-color: #1010de;
+    color:white;
+    text-align: center
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color:antiquewhite;
+    height: 500px;
+}
+
+footer{
+    background-color:blueviolet;
+}
+
+* {
+    margin:0px auto /* 5px emcima e embaixo, auto a esquerda e a direita */
+}
+
+header, nav, main, footer {
+    padding:10px;
+    box-sizing: border-box ;
+    width:90%;
+}  
+div.submenu{
+    display: none; /* Deixa esta caixa oculta*/
+    position:absolute; /* abre sem esticar a caixa nav */
+    background-color: blue;  
+    box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.5);    
+}
+
+
+div.menu:hover div.submenu{
+    display: block; /*exibe o submenu*/
+    
+}
+
+div.submenu a{
+    display: block; /* exibe uma opção abaixo da outra */
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+div.submenu a:hover{
+    text-decoration: underline;
+    color:burlywood;
+    background-color:dimgrey
+}
+
+button.botao{
+    background-color: black;
+    color: wheat;
+    border: none;    
+    padding:5px 20px
+}
+
+
+div.menu:hover button.botao{
+    background-color: #03bafc;
+    font-weight: bold;
+    cursor:pointer
+}
+
+botton.botao,div.submenu{
+    min-width: 150px;
+    text-align: left;   
+    font-size:13px;
+    font-family: calibri;
+}
+
+div.menu{
+    display: inline-block
+    
+}
+
+main iframe{
+   width: 100%;
+   height: 100%;
+   border: 0px
+}
